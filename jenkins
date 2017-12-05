@@ -4,9 +4,9 @@ pipeline {
     
     stages {
     
-        stage('Build') { 
+        stage('Pwd') { 
             steps {
-              sh 'git branch'
+              sh 'pwd'
             }
         }
     }
